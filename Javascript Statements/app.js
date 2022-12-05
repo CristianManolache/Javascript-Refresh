@@ -10,8 +10,17 @@ var last = false;
 // "" and '' are considered string but also Falsey
 
 
-if (age == 45) {
-    //do something if true
+if (age <= 40) {
+    //if the value of age is less than or equal to 40
+} else if ((age > 40) && (age < 50)) {
+    //if age is greater than 40
+    // && - means AND
+    // || - means OR 
+} else if (age < 0) {
+    //otherwise prevent something from happening
 } else {
-    //do something if false
+    //greater than 50
 }
+
+//COMPARISON operators
+// < <= > >= == != ! === --> comparing 2 object
