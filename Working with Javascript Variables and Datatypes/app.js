@@ -34,3 +34,7 @@ console.log(abc[0]); // [] = index ( item 0 , 1 , 2 , 3 ,4 )
 console.log(abc[0] + abc[1] + abc[2]); //concatenate without space
 console.log(abc[0] + " " + abc[1] + " " + abc[2]); //concatenated with space
 
+//Object
+//Function
+//Date
+// DOM Object - Document Object Model
