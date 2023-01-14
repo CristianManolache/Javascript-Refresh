@@ -29,7 +29,15 @@ function acc_balancetodate() {
     console.log("Account balance now is: " + account_balance);
 }
 
-acc_balancetodate();
-drink_beer();
-eat_burger();
-acc_balancetodate();
+//visit the Christmas Market --> eat and drink
+
+var mealList = [eat_burger, drink_beer, drink_pop, drink_beer, acc_balancetodate];
+
+function visitChristmas(mList) {
+    //mList is a parameter with no value inside
+    for (var i = 0; num = mList.length; i < num, i++) {
+        mList[i]();
+    }
+}
+//mList = mealList after we call the function bellow.
+visitChristmas(mealList);
