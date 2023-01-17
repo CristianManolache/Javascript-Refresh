@@ -2,8 +2,10 @@
 var beer_cost = 6.75;
 var burger_cost = 5.00;
 var pop_cost = 3.00;
+var bank_ballance = 100;
+var bank_request = 0;
 
-//user's money
+//user's cash money
 var account_balance = 15.75
 
 //drink beer function
@@ -27,6 +29,11 @@ function drink_pop() {
 //remaining
 function acc_balancetodate() {
     console.log("Account balance now is: " + account_balance);
+}
+
+//bank withdraw
+function bank_withdraw() {
+    bank_ballance
 }
 
 //visit the Christmas Market --> eat and drink
